@@ -5,16 +5,26 @@ html, body, #app {
 
 #app {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    align-content: center;
 
 }
 
 .box {
     width: 200px;
-    height: 60px;
-    background: #f00;
+    height: 100px;
     margin: 5px;
+}
+
+.red {
+    order: 2;
+    background: #f00;
+}
+
+.green {
+    order: 0;
+    background: #0f0;
+}
+
+.blue {
+    order: 1;
+    background: #00f
 }
